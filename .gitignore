@@ -1,0 +1,15 @@
+# Секреты: токены и API-ключи никогда не коммитим
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Личные заметки Claude Code
+CLAUDE.local.md
+
+# Python и macOS
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
